@@ -4,7 +4,7 @@
   "description": "build the css file",
   "main": "tailwind.config.js",
   "scripts": {
-    "test": "npx tailwindcss -i style.css -c ./tailwind.config.js -o ./../style.css"
+    "test": "npx tailwindcss -i style.css -c ./tailwind.config.js -o styles.css"
   },
   "keywords": [
     "buil"
