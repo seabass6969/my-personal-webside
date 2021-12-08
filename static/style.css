@@ -1,7 +1,13 @@
+/*
+ * main colorscheme
+ * #b278ba
+ * #7880ba
+ */
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&family=Oswald:wght@300;400&display=swap');
 body{
     margin: 0%;
-    background-color: rgba(85, 0, 255, 0.7);
+    background-color: #9178ba ;
 }
-.curvedwave{
-    border: 0%;
+.title{
+    font-family: 'Luxurious Script', cursive;
 }
