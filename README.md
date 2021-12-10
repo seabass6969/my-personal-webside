@@ -7,3 +7,8 @@ and just run the command ```heroku local``` to test
 ## This is still a non done project
 ## webside link [link](https://seabass6969.herokuapp.com/)
 ## Todo
+[ ] the colorscheme
+[ ] the webside figma file
+[ ] the design for the menu
+[ ] mobile support
+[ ] 

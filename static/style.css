@@ -1,13 +1,48 @@
 /*
  * main colorscheme
- * #b278ba
- * #7880ba
  */
 @import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&family=Oswald:wght@300;400&display=swap');
 body{
-    margin: 0%;
-    background-color: #9178ba ;
+    background-color: #ADADAD;
+    border: 15px 15px 10px 10px;
 }
 .title{
     font-family: 'Luxurious Script', cursive;
+    padding-left: 15px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+}
+.homebtn{
+    font-family: 'Oswald', sans-serif;
+    margin-top: 0%;
+    font-size: 20px;
+}
+.fishico{
+    width:50px;
+    height:50px;
+}
+.topbar{
+    float: flex;
+    text-align: center;
+    align-items: center;
+    top: 50%;
+}
+.leftbar{
+    display: flex;
+    float: left;  
+    align-items: center;
+    margin-top: 0px;
+}
+.rightbar{
+    float: right;
+    display: flex;
+}
+.bigtext{
+    font-size: 8vw;
+    text-align: center;
+}
+.maintext{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
 }
