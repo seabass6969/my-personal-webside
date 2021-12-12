@@ -11,12 +11,13 @@ body{
     padding-left: 15px;
     margin-top: 0%;
     margin-bottom: 0%;
-
 }
-.homebtn{
+.headerbtn{
     font-family: 'Oswald', sans-serif;
     margin-top: 0%;
     font-size: 20px;
+    margin-bottom: 0%;
+    padding-left: 3vw;
 }
 .fishico{
     width:50px;
@@ -37,6 +38,7 @@ body{
 .rightbar{
     float: right;
     display: flex;
+    margin-bottom: 0%;
 }
 .bigtext{
     font-size: 13vw;
@@ -44,17 +46,25 @@ body{
 }
 .maintext{
     font-family: 'Oswald', sans-serif;
-    font-size: 20px;
+    font-size: 3vw;
 }
 .smalltext{
     font-family: 'Oswald', sans-serif;
-    font-size: 10px;
+    font-size: 2vw;
 }
+.mediumtext{
+    font-family: 'Oswald', sans-serif;
+    font-size: 4vw;
+}
+
 @media (max-width: 600px){
     .maintext{
-        font-size: 4vw;
+        font-size: 7vw;
     }
     .bigtext{ 
         font-size: 16vw;
+    }
+    .mediumtext{
+        font-size: 8vw;
     }
 }

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link class="stylesheet" rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald&effect=anaglyph">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <!-- the top part of the webside -->
+    <div class="topbar">
+        <div class="leftbar">
+            <img src="{{ url_for('static', filename='fish.svg')}}" class="fishico">
+            <h1 class="title">sea bass</h1>
+        </div>
+        <div class="rightbar">
+            <a class="headerbtn" href="/">Home</a>
+            <a class="headerbtn" href="/about">About</a>
+            <a class="headerbtn" href="/project">Project</a>
+            <!--I think next time I will make a for loop to make it shorter-->
+        </div>
+    </div>
+    <br><br><br>
+</body>
+</html>
