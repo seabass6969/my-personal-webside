@@ -11,13 +11,18 @@ body{
     padding-left: 15px;
     margin-top: 0%;
     margin-bottom: 0%;
+    text-shadow: 1px 1px #662b5c;
+}
+.title:hover{
+    text-shadow: 2px 2px #662b5c;
 }
 .headerbtn{
     font-family: 'Oswald', sans-serif;
     margin-top: 0%;
     font-size: 20px;
     margin-bottom: 0%;
-    padding-left: 3vw;
+    margin-left: 3vw;
+    color: #ff26da
 }
 .fishico{
     width:50px;
@@ -55,6 +60,21 @@ body{
 .mediumtext{
     font-family: 'Oswald', sans-serif;
     font-size: 4vw;
+}
+@keyframes shadowchange {
+    to{box-shadow: 4px 4px;}
+}
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    /* background-color: #dedede; */
+    animation-name: shadowchange;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;   
 }
 
 @media (max-width: 600px){
