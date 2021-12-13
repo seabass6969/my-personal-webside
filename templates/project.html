@@ -12,7 +12,11 @@
 <body>
     {% include 'header.html'%} 
     {% for i in range(0,longest)%}
+    <img src="{{ url_for('static', filename='fish.svg')}}"  class="fishico">
+    <br>
     <a href="{{Projecturl[i]}}">{{Projecturl[i]}}</a>
+    <br>
     {%endfor%}
+    {% include 'underbar.html' %}
 </body>
 </html>

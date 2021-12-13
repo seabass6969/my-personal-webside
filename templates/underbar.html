@@ -3,19 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
     <link class="stylesheet" rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald&effect=anaglyph">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="icon" href="{{ url_for('static', filename='fish.svg')}}">
 </head>
 <body>
-    {% include 'header.html'%} 
-    <!-- the last part of the webside -->
-    <div class="maincontent">
-        <div class="bigtext font-effect-anaglyph">This is my website</div>
-    </div>
-    <div class="maintext">but really there is nothing here to look at.</div>
-    {% include 'underbar.html' %}
+
+    <div class="smalltext">Copyright (C) 2022 seabass <a href="https://www.gnu.org/licenses/">UNDER GNU LICENSE</a></div>
+   <br>
+   <br>
+   <br>
 </body>
 </html>

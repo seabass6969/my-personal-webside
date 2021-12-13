@@ -2,9 +2,12 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
+# all the variables
 projectname = ["my webside", "google"]
 projecturl = ["https://heroku.com", "https://google.com"]
+abouttext = "I am just a little boy. Please don't bully me."
 
+# start here
 @app.route('/')
 def index():
     return render_template('index.html')
@@ -15,7 +18,7 @@ def project():
 
 @app.route('/about')
 def blog():
-    return render_template('about.html')
+    return render_template('about.html', textontext=abouttext)
 # @app.route('/test')
 # def test():
 #     return "test"
