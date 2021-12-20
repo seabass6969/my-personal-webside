@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Project</title>
-    <link class="stylesheet" rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald&effect=anaglyph">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="icon" href="{{ url_for('static', filename='fish.svg')}}">
+    {% include 'import.html' %}
 </head>
 <body>
     {% include 'header.html'%} 
     {% for i in range(0,longest)%}
-    <img src="{{ url_for('static', filename='fish.svg')}}"  class="fishico">
+    <!--
+        <img src="{{ url_for('static', filename='fish.svg')}}"  class="fishico">
     <br>
-    <a href="{{Projecturl[i]}}">{{Projecturl[i]}}</a>
+    <a href="{{Projecturl[i]}}" class="maintext">{{Projecturl[i]}}</a>
     <br>
+    -->
     {%endfor%}
+        <div class="maintext">No stuff yet! </div>
     {% include 'underbar.html' %}
 </body>
 </html>

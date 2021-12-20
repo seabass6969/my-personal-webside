@@ -3,12 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link class="stylesheet" rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald&effect=anaglyph">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    {% include 'import.html' %}
 </head>
 <body>
-
+    <object data="{{ url_for('static', filename='ig.svg')}}" type="image/svg+xml" class="iglogo"></object>
     <div class="smalltext">Copyright (C) 2022 seabass <a href="https://www.gnu.org/licenses/">UNDER GNU LICENSE</a></div>
    <br>
    <br>

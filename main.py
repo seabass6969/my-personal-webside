@@ -3,9 +3,10 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 # all the variables
-projectname = ["my webside", "google"]
-projecturl = ["https://heroku.com", "https://google.com"]
-abouttext = "I am just a little boy. Please don't bully me."
+# projectname = ["my webside", "google"]
+projecturl = ["https://google.com"]
+projectname = ["No stuff yet"]
+abouttext = "This is my blog. I am just a little boy. Please don't bully me."
 
 # start here
 @app.route('/')
