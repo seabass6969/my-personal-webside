@@ -6,7 +6,7 @@ app = Flask(__name__)
 # projectname = ["my webside", "google"]
 projecturl = ["https://google.com"]
 projectname = ["No stuff yet"]
-abouttext = "This is my blog. I am just a little boy. Please don't bully me."
+abouttext = "This is my page. I am just a little boy. Please don't bully me."
 
 # start here
 @app.route('/')
